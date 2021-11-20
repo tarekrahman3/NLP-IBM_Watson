@@ -1,0 +1,6 @@
+# homepage: https://nlp.stanford.edu/software/CRF-NER.html
+# framework: https://nlp.stanford.edu/software/stanford-ner-4.2.0.zip
+"""
+Parse the test file in the distribution directory with the command:
+java -mx600m -cp "*:lib/*" edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -textFile sample.txt
+"""
