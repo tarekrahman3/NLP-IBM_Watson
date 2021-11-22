@@ -14,8 +14,7 @@
     -- <a href="https://www.analyticsvidhya.com/blog/2019/07/how-get-started-nlp-6-unique-ways-perform-tokenization/" rel="nofollow">Methods to Perform Tokenization in Python</a>
     <code class="python">--- text.split('. ') 
     --- re.findall("[\w']+", text)
-    --- re.compile('[.!?] ').split(text)
-    print(sentences)</code>
+    --- re.compile('[.!?] ').split(text)</code>
 
 <strong>Sentence Splitting (Difficulty Level: Medium):</strong>
     Meaning: The process of separating free-flowing text into sentences
